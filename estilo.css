@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+        background-color: lightsalmon;
+        padding: 15px;
+    }
+    .conteudo-topo > h2{
+        font-size: 35px;
+        text-align: center;
+        margin: 20px;
+        padding: 0;
+    }
+    .conteudo-topo > p{
+        font-size: 20px;
+        text-align: justify;
+        margin: 0;
+        padding: 0;
+    }
+    .conteudo-topo > ul{
+        font-size: 20px;
+        text-align: justify;
+        margin: 0;
+        padding: 20px;
+    }
+    .conteudo-principal > h2{
+        font-size: 35px;
+        padding: 15px;
+    }
+    .bebida{
+        display: flex;
+        border: lightsalmon solid 5px;
+        border-radius: 30px;
+    }
+    .bebida > img{
+        width: 350px;
+        height: 225px;
+        border-radius: 25px;
+    }
+    h3{
+        font-size: 30px;
+        padding: 15px;
+    }
+    .bebida > p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        padding: 10px;
+        margin: 10px;
+    }
+    #bebimocha{
+        width: 350px;
+        height: 225px;
+        border-radius: 25px;
+    }
+
+}
