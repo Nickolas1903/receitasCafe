@@ -4,10 +4,10 @@
     padding: 5px;
     box-sizing: border-box;
 
-    h1{
+    .conteudo-topo > h1{
         font-size: 40px;
         text-align: center;
-        background-color: lightsalmon;
+        background-color: lightgreen;
         padding: 15px;
     }
     .conteudo-topo > h2{
@@ -34,7 +34,7 @@
     }
     .bebida{
         display: flex;
-        border: lightsalmon solid 5px;
+        border: lightgreen solid 5px;
         border-radius: 30px;
     }
     .bebida > img{
@@ -53,10 +53,45 @@
         padding: 10px;
         margin: 10px;
     }
-    #bebimocha{
-        width: 350px;
-        height: 225px;
+    #mocha{
+        width: 335px;
+        height: 323px;
         border-radius: 25px;
+    }
+    #cappucino{
+        width: 335px;
+        height: 275px;
+        border-radius: 25px;
+    }
+    #macchiato{
+        width: 450px;
+        height: 250px;
+        border-radius: 25px;
+    }
+    footer{
+        font-size: 19px;
+        text-align: center;
+        background-color: lightgreen;
+        padding: 40px
+    }
+    .Perfil{
+        margin: 75px;
+        padding: 0;
+        border: lightgreen solid 5px;
+        border-radius: 50px;
+        text-align: center;
+    }
+    .Perfil > h1{
+        font-size: 40px;
+    }
+    .Perfil > img{
+        width: 300px;
+        height: 225px;
+        border-radius: 40px;
+    }
+    #github-img{
+        width: 75px;
+        height: 75px;
     }
 
 }
