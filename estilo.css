@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+}
     .titulo-principal{
         display: flex;
         font-size: 25px;
@@ -14,7 +14,7 @@
     }
     .titulo-principal > h1{
         text-align: center;
-        padding-left: 269px;
+        padding-left: 700px;
     }
     .titulo-principal > img{
         width: 60px;
@@ -87,36 +87,3 @@
         background-color: lightgreen;
         padding: 40px
     }
-    .Perfil{
-        text-align: center;
-        margin: 75px;
-        padding-left: 0;
-        border: lightgreen solid 5px;
-        box-shadow: 10px 10px green;
-        border-radius: 50px;
-        width: 60%;
-    }
-    .Perfil > h1{
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .Perfil > img{
-        width: 300px;
-        height: 225px;
-        border-radius: 40px;
-    }
-    .Perfil > p{
-        padding-bottom: 3px;
-        padding-top: 20px;
-    }
-    #github-img{
-        width: 90px;
-        height: 90px;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-}
